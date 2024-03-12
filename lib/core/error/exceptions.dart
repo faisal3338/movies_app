@@ -1,23 +1,14 @@
-
 import 'package:movies_app/core/network/error_message_model.dart';
 
 class ServerException implements Exception{
-  final ErrorMessageModel errorMessageModel;
-  
-  const ServerException({
-    required this.errorMessageModel
-    });
+  final ErrorMassageModel errorMassageModel;
+
+  const ServerException({required this.errorMassageModel});
 }
 
-class localDatabaseException implements Exception{
-  final String message;
+class LocalDatabaseException implements Exception {
+  final String massage;
+
+ const LocalDatabaseException({required this.massage});
   
-  const localDatabaseException({
-    required this.message,
-  });
 }
-
-
-
-
-

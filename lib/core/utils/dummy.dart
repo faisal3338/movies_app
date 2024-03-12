@@ -1,8 +1,8 @@
+import 'package:movies_app/features/movies/data/repository/domain/entites/movies.dart';
 
-import 'package:movies_app/movies/domain/entities/movie.dart';
 
 List<Movie> moviesList = [
-  Movie(
+ const Movie(
     backdropPath: "/nmGWzTLMXy9x7mKd8NKPLmHtWGa.jpg",
     // genreIds: const [
     //   14,
